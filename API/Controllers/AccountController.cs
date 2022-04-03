@@ -66,7 +66,7 @@ namespace API.Controllers
         public async Task<ActionResult<UserDTO>> Login(LoginDTO dto)
         {
             AppUser user = null;
-            string strErrMessage = "Login Error ";
+            string strErrMessage = "Login Error! ";
 
             try
             {
